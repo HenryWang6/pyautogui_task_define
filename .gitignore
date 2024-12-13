@@ -1,0 +1,27 @@
+# reference files
+ref_files/ref_images/*
+!ref_files/ref_images/.gitkeep
+ref_files/task_sequences/*
+!ref_files/task_sequences/.gitkeep
+
+# result files
+results/*
+!results/.gitkeep
+
+# Python
+*.pyc
+__pycache__/
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Sensitive data
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual Env
+venv/
